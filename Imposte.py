@@ -6,6 +6,7 @@ reddito = float(input("Inserisci il reddito: "))
 aliquota1=0.23
 aliquota2=0.35
 aliquota3=0.43
+imposta=0
 
 # Calcolo dell'aliquota e imposta
 
