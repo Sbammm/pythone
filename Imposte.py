@@ -6,18 +6,20 @@ reddito = float(input("Inserisci il reddito: "))
 aliquota1=0.23
 aliquota2=0.35
 aliquota3=0.43
+scaglione1=28000
+sceglione2=50000
 imposta=0
 
 # Calcolo dell'aliquota e imposta
 
-if reddito<=28000:
+if reddito<=scaglione1:
     imposta = reddito * aliquota1
 
-elif reddito <= 50000:
-    imposta= 28000*0.23 + (reddito - 28000)*0.35
+elif reddito <= scaglione2:
+    imposta= scaglione1*aliquota1 + (reddito - scaglione1)*aliquota2
 
 else:
-    imposta= 28000*0.23 + 50000*0.35 + ((reddito - 50000)*0.43)
+    imposta= scaglione1*aliquota1 + scaglione2*aliquota2 + ((reddito - sceglione2)*aliquota3)
 
 
 '''if reddito <= 28000:
