@@ -29,7 +29,7 @@ while vittoria==True:
     elif(giocata[0]=="C" and giocata[1]=="C") or (giocata[0]=="F" and giocata[1]=="F") or (giocata[0]=="S" and giocata[1]=="S") :
         punteggio_giocatore2=0
         punteggio_giocatore1=0
-        print("ENTRA QUI")
+       
     else:
         giocata=input("l'input inserito non è corretto. inserire nuovamente un input valido: ")
     
